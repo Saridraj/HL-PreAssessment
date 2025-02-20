@@ -1,6 +1,6 @@
-# HL-PreAssessment
+ HL-PreAssessment
 
-## Backend Questions
+# Backend Questions
 
 ### Answer of Question 1.
 
@@ -23,5 +23,29 @@ When have a request to get customer data, master data, and transaction data. Beg
 Fig. 1.3: Sequence diagram 
 
 Finally, the client can call API to get all data with API path name /getDataAggregated and must send the parameter userId and token within the request.
+
+
+------------------------------------------------
+
+### Answer of Question 2.
+I want descrip this issues with activity diagram shows in Fig 2.1. Which consists of defining the objective, identifying the scope, creating a test plan, selecting tools, executing, analyzing, reporting, and optimizing software. The details are as follows:
+1. Define performance test objective 
+Form non-functional requirement can identify the Objective and criteria of performance testing. What is the aspect of test like speed, response time, load, resource usage, or stability? And define the criteria of each aspect. This process output is the test objective and criteria.
+2. Identify scope
+Identify which components, modules, and integrations will be tested. This process output is the test scope.
+3. Create test plan
+Design performance test cases of each scenario. Plan sequence and timing of test case by concern about coverage and config of test case. This process output is a test case and schedule.
+4. Select test tools
+Select tools for performance testing in each aspect of testing like Gatling([https://docs.gatling.io/tutorials/scripting-intro-js/](https://docs.gatling.io/tutorials/scripting-intro-js/)), LoadRunner([https://www.opentext.com/en-gb/products/loadrunner-professional](https://www.opentext.com/en-gb/products/loadrunner-professional)), JMeter([https://jmeter.apache.org](https://jmeter.apache.org)), and etc.
+5. Execute test
+From the test case, test plan, and test tool execute the performance test and collect the test result. In this process, the output is the test result.
+6. Analyze and reports
+Compare actual performance with criteria of testing. Identify issues of performance to be optimized. Develop a report of performance test.
+7. Optimize 
+If the performance test result is not good or does not pass criteria can optimize the software and re-testing.
+
+![sequence diagram](https://res.cloudinary.com/dmdxfjunb/image/upload/v1720288294/HLAB-performance_test_wcog4q.jpg) \
+Fig. 2.1: Activity diagram of performance testing
+
 
 
