@@ -104,3 +104,20 @@ Source code of the system can access with [https://github.com/Saridraj/HL-PreAss
 
 
 
+----------------------
+---------------------
+## React Questions
+### Answer of Question 1.
+React useCallback is used to memorize callback functions reducing unnecessary re-renders to optimize performance.
+
+The callback function is a function that passes as an argument to another function or child component. When used callback function without useCallback affects child component unnecessary re-render.
+
+To prevent unnecessary re-rendering of child components can use useCallback. It avoids new functions in every render. But it caches the callback function and re-renders it when having dependency change only.
+
+### Answer of Question 2.
+Test script repository of unit test can access with 
+[https://github.com/Saridraj/HL-PreAssesment-React-Testing-Lib/tree/main](https://github.com/Saridraj/HL-PreAssesment-React-Testing-Lib/tree/main)) 
+
+The project consist of main component is src/app/page.tsx that is a Home page of the project and have a UserProfile component in folder components. Folder __test__ collect the test script like Home.test.tsx and UserProfile.test.tsx.
+
+
